@@ -1,0 +1,39 @@
+﻿<div id="oo-rd-{{model.id}}" class="oo-rd" ng-controller="OriginalObjective.RecurlyDates as vm">
+    <umb-control-group label="Start Date">
+        <umb-editor model="startDatePicker"></umb-editor>
+    </umb-control-group>
+    <umb-control-group label="End Date">
+        <umb-editor model="endDatePicker"></umb-editor>
+    </umb-control-group>
+    <umb-control-group label="Recurrence">
+        <div class="oo-rd-rec-left">
+            <umb-editor model="recurrencePicker"></umb-editor>
+        </div>
+        <div class="oo-rd-rec-right" ng-show="model.value.recurrence == 'daily' || model.value.recurrence == 'weekly'">
+            <div class="oo-rd-rec-right-weekly-recurrence-pattern-picker" ng-show="model.value.recurrence == 'weekly'">
+                <div>Every</div>
+                <umb-editor model="weeklyRecurrencePatternPicker"></umb-editor>
+                <div>week(s) on</div>
+            </div>
+            <div class="oo-rd-rec-right-daily-recurrence-pattern-picker">
+                <umb-editor model="dailyRecurrencePatternPicker"></umb-editor>
+            </div>
+        </div>
+        <div class="oo-rd-rec-right" ng-show="model.value.recurrence == 'monthly' || model.value.recurrence == 'annually'">
+            <ul>
+                <li><umb-editor model="recurrenceTypePicker"></umb-editor></li>
+                <li class="oo-rd-rec-right-pattern" ng-show="model.value.recurrenceType == 'usePattern'">
+                    <div class="oo-rd-rec-right-recurrence-pattern-specificer-picker">
+                        <umb-editor model="recurrencePatternSpecificerPicker"></umb-editor>
+                    </div>
+                    <div class="oo-rd-rec-right-day-type-specifier-picker">
+                        <umb-editor model="dayTypeSpecifierPicker"></umb-editor>
+                    </div>
+                    <div class="oo-rd-rec-right-month-picker" ng-show="model.value.recurrence == 'annually'">
+                        <umb-editor model="monthPicker"></umb-editor>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </umb-control-group>
+</div>

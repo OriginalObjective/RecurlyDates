@@ -1,0 +1,93 @@
+﻿.oo-rd > .umb-property:last-child .umb-control-group {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+}
+
+.oo-rd .umb-control-group {
+    padding-bottom: 5px;
+}
+
+.oo-rd .datepicker {
+    float: left;
+    margin-bottom: 6px;
+}
+
+.oo-rd p {
+    display: inline-block;
+    margin-top: 6px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.oo-rd ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0 !important;
+    float: left;
+}
+
+.oo-rd ul label {
+    padding-left: 0;
+}
+
+.oo-rd .oo-rd-rec-left {
+    float: left;
+    width: 125px;
+}
+
+.oo-rd .oo-rd-rec-right {
+    float: left;
+    width: auto;
+}
+
+.oo-rd-rec-right-pattern {
+    float: left;
+}
+
+.oo-rd-rec-right-weekly-recurrence-pattern-picker {
+    width: 220px;
+    float: left;
+}
+
+.oo-rd-rec-right-weekly-recurrence-pattern-picker > div {
+    float: left;
+}
+
+.oo-rd-rec-right-weekly-recurrence-pattern-picker select {
+    width: 70px;
+    margin: -5px 6px;
+}
+
+.oo-rd-rec-right-daily-recurrence-pattern-picker {
+    float: left;
+}
+
+.oo-rd-rec-right-recurrence-pattern-specificer-picker {
+    float: left;
+    margin-top: 22px;
+}
+
+.oo-rd-rec-right-recurrence-pattern-specificer-picker select {
+    width: 100px;
+}
+
+.oo-rd-rec-right-day-type-specifier-picker {
+    float: left;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+
+.oo-rd-rec-right-day-type-specifier-picker select {
+    width: 160px;
+}
+
+.oo-rd-rec-right-month-picker {
+    float: left;
+    margin-top: 22px;
+    margin-left: 5px;
+}
+
+.oo-rd-rec-right-month-picker select {
+    width: 160px;
+}

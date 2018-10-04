@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <title>Recurly Dates</title>
+    <id>OriginalObjective.RecurlyDates</id>
+    <version>1.0.2</version>
+    <authors>Original Objective</authors>
+    <owners>Original Objective</owners>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>https://github.com/originalobjective/recurly-dates/</projectUrl>
+    <iconUrl>http://originalobjective.com/img/original-objective-logo-x2.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Recurly Dates package is an Umbraco data type for creating recurring events. Choose from Daily, Weekly, Monthly or Yearly. Define on which days the event is to recur.</description>
+    <summary>The Recurly Dates package is an Umbraco data type for creating recurring events.</summary>
+    <releaseNotes>Initial NuGet package release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>umbraco Recurly Dates datatype</tags>
+    <dependencies>
+      <dependency id="UmbracoCms.Core" version="7.11.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\source\OriginalObjective.RecurlyDates\bin\OriginalObjective.RecurlyDates.dll" target="lib\OriginalObjective.RecurlyDates.dll" />
+    <file src="..\source\OriginalObjective.RecurlyDates\Controllers\Editor.js" target="content\App_Plugins\OriginalObjective.RecurlyDates\Editor.js" />
+    <file src="..\source\OriginalObjective.RecurlyDates\Styles\Editor.css" target="content\App_Plugins\OriginalObjective.RecurlyDates\Editor.css" />
+    <file src="..\source\OriginalObjective.RecurlyDates\Views\Editor.html" target="content\App_Plugins\OriginalObjective.RecurlyDates\Editor.html" />
+  </files>
+</package>
