@@ -7,8 +7,8 @@
     <authors>Original Objective</authors>
     <owners>Original Objective</owners>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-    <projectUrl>https://github.com/originalobjective/recurly-dates/</projectUrl>
     <iconUrl>https://originalobjective.com/assets/img/original-objective-logo-x2.png</iconUrl>
+    <projectUrl>https://github.com/originalobjective/recurlydates/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The Recurly Dates package is an Umbraco data type for creating recurring events. Choose from Daily, Weekly, Monthly or Yearly. Define on which days the event is to recur.</description>
     <summary>The Recurly Dates package is an Umbraco data type for creating recurring events.</summary>
